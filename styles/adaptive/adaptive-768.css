@@ -1,0 +1,115 @@
+@media screen and (max-width:769px) {
+    .adipisicings {
+        display: none;
+    }
+
+    .pages {
+        margin-left: 200px;
+    }
+
+    .head__link {
+        pointer-events: none;
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .articles {
+         margin-left:-260px;
+         
+    }
+
+    .adipisicings {
+        display: none;
+    }
+
+    .burger {
+        display: inline-block;
+        position: absolute;
+        width: 50px;
+        height: 43px;
+        background-color:#333;
+    }
+    .burger-line {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        width: 35px;
+        height: 2px;
+        background-color: #fff;
+        transition: .5s all;
+    }
+    
+    .menu-burger {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        z-index: 2;
+        line-height: 40px;
+    }
+    
+    .links__burger {
+        
+        bottom:0px;
+        width:249px;
+        height: 980px;
+        margin-top: 43px;
+        margin-left: -578px;
+        background-color: #F0F0F0;
+        transform: translateX(100%);
+        transition: 0.5s all;
+    }
+    
+    .second, .third{
+        top: 18px;
+    }
+    
+    .fourth{
+        top: 28px;
+    }
+    
+    #check-menu {
+        display: none;
+    }
+    
+    #check-menu:checked ~ .first{
+        display: none;
+    }
+    
+    #check-menu:checked ~ .second{
+        transform: rotate(45deg);
+    }
+    
+    #check-menu:checked ~ .third{
+        transform: rotate(-45deg);
+    }
+    
+    #check-menu:checked ~ .fourth{
+        display: none;
+    }
+    
+    #check-menu:checked ~ .links__burger {
+        margin-left: -328px;
+        font-size: 16px;
+    }
+    
+    
+    .link__burger {
+        display:block;
+        text-decoration: none;
+        color:#000;
+        font-size: ;
+        padding:16px 0px 16px 18px;
+    }
+    
+    .link__burger:hover {
+     background-color: #000;
+     color: #F0F0F0;
+    }
+}

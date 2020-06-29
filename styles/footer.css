@@ -1,0 +1,39 @@
+.foot {
+    margin-top:30px;
+    max-width: 100%;
+    height:43px;
+    background-color:#666666;
+    height:100px;
+    right: 0;
+    left: 0;
+}
+
+.foot h4 {
+    margin-left:18%;
+    color:#F0F0F0;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top:50px;
+}
+
+.powered{
+    margin-top: -21px;
+    max-width: 100%;
+    height:43px;
+    background-color:#333333;
+    height:50px;
+    right: 0;
+    left: 0;
+}
+
+.powered p {
+    font-size: 15px;
+    color:#fff;
+    margin-left:18%;
+    padding-top:25px;
+}
+
+.powered a{
+    color:#fff;
+    font-size: 15px;
+}
